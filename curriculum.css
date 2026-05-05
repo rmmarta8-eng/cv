@@ -1,0 +1,51 @@
+body {
+ font-family: "Tangerine", serif; font-size: 20px; 
+ background-color: #85DCFF;
+}
+img.foto{
+	float: right;
+}
+img{
+	float: center;
+}
+a{
+  text-decoration: none;
+}
+a:hover {
+  color: red;
+}
+ul.img {
+  list-style-image: url('libros.jpeg');
+  list-style-type: square;  
+  margin-left: 30px;
+}
+div.datos{
+  max-width: 300px;
+  width: 100%;
+  border-radius: 4px;
+  border: 2px solid #04AA6D;
+  background-color:  #f2f2f2;
+  padding: 20px;
+}
+div.formacion{
+  max-width: 300px;
+  width: 100%;
+  border-radius: 2px;
+  border: 2px solid darkblue;
+  background-color: lightgreen;
+}
+
+div.experiencia
+{
+  max-width: 300px;
+  width: 100%;
+  background-color: violet;
+}
+div.otros
+{
+  max-width: 350px;
+  width: 100%;
+  border-radius: 6px;
+  border: 4px solid red;
+  background-color: yellow;
+}
